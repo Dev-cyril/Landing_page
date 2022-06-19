@@ -1,0 +1,520 @@
+body{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+.head{
+    height: fit-content;
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-color: rgba(187, 218, 230, 0.678);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    column-gap: 15px;
+    flex-direction: column;
+    justify-content: stretch;
+    padding-bottom: 30px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+}
+.logo > img{
+    height: 20px;
+    width: 70px;
+    padding: 20px;
+}
+.butt{
+    padding: 20px 40px;
+}
+.butt > button{
+    border-radius: 20px;
+    height: 35px;
+    width: 120px;
+    text-align: center;
+    background-color: #fff;
+    border: 0;
+}
+.butt > button:hover{
+    cursor: pointer;
+    color: rgba(82, 81, 81, 0.623);
+}
+.img_txt{
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+    padding-right: 0;
+}
+.text{
+    height: 300px;
+    width: 45%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text  h2, h4{
+    max-width: 100%;
+    padding: 10px 20px;
+}
+.butt_div{
+    padding: 20px;
+}
+.butt_div > button{
+    background-color: rgba(247, 17, 113, 0.705);
+    border-radius: 20px;
+    color: azure;
+    height: 30px;
+    width: 170px;
+    text-align: center;
+    border: 0;
+}
+.img{
+    width: 50%;
+    height: fit-content;
+    justify-content: center;
+
+}
+.img > img{
+    height: 400px;
+    width: 95%;
+}
+.body{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 70px;
+}
+.grow-user{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    width: 90%;
+    border: 1px solid rgb(241, 247, 246);
+    padding: 10px;
+    border-radius: 7px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(100, 97, 97, 0.13);
+}
+.convo{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    width: 90%;
+    /* border: 1px solid rgb(241, 247, 246); */
+    padding: 10px;
+    border-radius: 7px;
+    margin: 10px;
+    box-shadow: 0 0 2px hsl(208, 11%, 55%);
+}
+.grow_text, .user_text{
+    width: 50%;
+    height: 200px;
+}
+.grow_text, .user_text,  p, h2{
+    padding: 5px 20px;
+    text-align: justify;
+}
+.grow_image, .user_image{
+    width: 50%;
+    height: 200px;
+    text-align: right;
+    padding: 5px 10px 5px 2px;
+}
+.grow_image > img{
+    height: 200px;
+    width: 90%;
+    padding-left: 10px;
+}
+.user_image > img{
+    height: 200px;
+    width: 90%;
+    padding-left: 10px;
+}
+.convo_image > img{
+    height: 200px;
+    width: 90%;
+    padding-right: 50px;
+}
+
+.convo_image{
+    width: 50%;
+    height: 200px;
+    padding: 5px 20px;
+}
+
+.convo_text{
+    width: 50%;
+    height: 200px;
+}
+.convo_text, p, h2{
+    padding: 5px 20px;
+    text-align: justify;
+}
+.build{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 180px;
+    text-align: center;
+    border-radius: 6px;
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: -6%;
+    background-color: #fff;
+    padding: 10px 25px;
+    box-shadow: 0 0 10px rgba(100, 97, 97, 0.445);
+}
+.butt_build{
+    text-align: center;
+}
+.butt_build > button{
+    background-color: rgba(247, 17, 113, 0.705);
+    border-radius: 25px;
+    color: azure;
+    height: 40px;
+    width: 170px;
+    text-align: center;
+    border: 0;
+    margin-bottom: 70px;
+
+}
+.butt_build > button:hover{
+    cursor: pointer;
+    background-color: rgba(247, 17, 113, 0.384);
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    padding: 0 4%;   
+}
+.footer > .logo{
+    margin-top: 12%;
+    width: 100%;
+    height: 35%;
+    padding-bottom: 3%;
+}
+.inner_footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 5px;
+    width: 45%;
+    color: rgba(233, 230, 230, 0.788);
+}
+.location, .tel, .mail{
+    display: flex;
+    max-width: 100%;
+    column-gap: 10px;
+}
+.location > .contact_logo{
+    width: 10%;
+    height: 20px;
+    text-align: center;
+    padding: 12px;
+}
+.tel > .contact_logo{
+    width: 10%;
+    height: 20px;
+    padding: 12px 0 12px 12px;
+}
+.mail > .contact_logo{
+    width: 10%;
+    height: 20px;
+    padding: 12px 0 12px 12px;
+}
+.location > .contact_details{
+    padding: 5px 0 5px 10px;
+}
+.tel > .contact_details{
+    padding: 5px 0 5px ;
+}
+.mail > .contact_details{
+    padding: 5px 0 5px ;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.about  div{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    gap: 20px;   
+}
+.blog  div{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    gap: 20px;
+}
+.faq  div{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    width: 200px;
+}
+a{
+    color: rgba(233, 230, 230, 0.788);
+    text-decoration: none;
+    padding: 10px 0;
+}
+.social_media{
+    display: flex;
+    justify-content: left;
+    column-gap: 3px;
+    width: 20%;
+}
+.social_media  .facebook, .twitter, .instagram, .twit, .fb, .insta{
+    height: 28px;
+    width: 28px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 100%;
+    padding: 6px;
+}
+.social_media  .facebook:hover, .twitter:hover, .instagram:hover, .fb:hover, .twit:hover, .insta:hover{
+    border-color: rgb(231, 48, 109);
+    cursor: pointer;
+}
+.twit{
+    display: none;
+}
+.fb{
+    display: none;
+}
+.insta{
+    display: none;
+}
+.wrap:hover .twitter{
+    display: none;
+}
+.wrap:hover .twit{
+    display: block;
+}
+.wrap:hover .facebook{
+    display: none;
+}
+.wrap:hover .fb{
+    display: block;
+}
+.wrap:hover .instagram{
+    display: none;
+}
+.wrap:hover .insta{
+    display: block;
+}
+.txt-butt:hover{
+    background-color: rgba(247, 17, 113, 0.384);
+    cursor: pointer;
+    color: azure;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.link_div{
+    display: flex; 
+    flex-direction:row
+}
+.footer > p{
+    font-size: small;
+    color: darkgray;
+    text-align: right;
+}
+h2, h3{
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+@media (max-width:500px) {
+    .img_txt{
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        justify-content: space-between;
+        margin-right: -10%;
+    }
+    .text{
+        height: 300px;
+        width: 90%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .grow-user{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        row-gap: 10px;
+        width: 90%;
+        border: 1px solid rgb(241, 247, 246);
+        padding: 10px;
+        border-radius: 7px;
+        margin: 10px;
+    }
+    .convo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 10px;
+        width: 90%;
+        border: 1px solid rgb(241, 247, 246);
+        padding: 10px;
+        border-radius: 7px;
+        margin: 10px;
+    }
+    .inner_footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .text{
+        height: 300px;
+        width: 90%;
+        align-items: center;
+        padding-right: 0;
+    }
+    .img{
+        width: 90%;
+        height: fit-content;
+        justify-content: center;
+    }
+    .grow_text, .user_text{
+        width: 90%;
+        height: 200px;
+    }
+    .grow_image, .user_image{
+        width: 90%;
+        height: 200px;
+        padding: 5px 20px;
+    }
+    .grow_image > img{
+        height: 200px;
+        width: 90%;
+        padding: 0 20px;
+    }
+    .user_image > img{
+        height: 200px;
+        width: 90%;
+        padding: 0 20px;
+    }
+    .convo_image > img{
+        height: 200px;
+        width: 90%;
+        padding: 0 20px;
+    }
+    .convo_image{
+        width: 90%;
+        height: 200px;
+        padding: 5px 20px;
+    }
+    .convo_text{
+        width: 90%;
+        height: 200px;
+    }
+    .convo_text, p, h2{
+        padding: 5px 20px;
+        text-align: center;
+    }
+    .build{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        height: 180px;
+        text-align: center;
+        border-radius: 6px;
+        position: relative;
+        margin-top: 5%;
+        margin-bottom: -15%;
+        background-color: #fff;
+        padding: 10px 25px;
+        box-shadow: 0 0 10px rgba(100, 97, 97, 0.445);
+    }
+    .img > img{
+        height: 400px;
+        width: 90%;
+        padding: 0 5%;
+    }
+    .footer > .logo{
+        margin-top: 20%;
+    }
+    .inner_footer{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .info > div{
+        flex-direction: column;
+    }
+    .contact{
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .location > .contact_logo{
+        width: 10%;
+        height: 20px;
+        text-align: center;
+        padding: 12px 12px 12px 0;
+    }
+    .tel > .contact_logo{
+        padding: 12px 0;
+    }
+    .mail > .contact_logo{
+        padding: 12px 0;
+    }
+    .location > .contact_details{
+        padding: 5px 0 5px 5px;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    .about  div{
+        display: flex;
+        justify-content: space-between;
+        width: 200px;
+        gap: 20px; 
+    }
+    .link_div{
+        display: flex; 
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        padding: 3px;
+    }
+    .link_div > div{
+        gap: 10px;
+        margin-bottom: 0;
+    }
+    .social_media{
+        display: flex;
+        justify-content: center;
+        column-gap: 3px;
+        width: 100%;
+    }
+    .footer > p{
+        text-align: center;
+    }
+}
