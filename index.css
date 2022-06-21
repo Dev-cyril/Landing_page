@@ -117,7 +117,7 @@ body{
     padding: 10px;
     border-radius: 7px;
     margin: 10px;
-    box-shadow: 0 0 2px hsl(208, 11%, 55%);
+    box-shadow: 0 0 10px rgba(100, 97, 97, 0.13);
 }
 .grow_text, .user_text{
     width: 50%;
